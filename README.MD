@@ -11,6 +11,7 @@ checkout -b <branch name> (creates branch)
 checkout master (switches back to master)
 git merge <branch name> (merges change to master)
 branch -d <branch name>  (deletes branch)
+branch -a (lists all git branches local and remote)
 
 
 BRANCHES
