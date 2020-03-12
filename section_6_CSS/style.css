@@ -1,0 +1,21 @@
+/* Selector {
+    property: value;
+} */
+/* From overarching to more specific tag/selectors */
+body {
+  background-image: url(./img/Beach_Background-1001.jpg);
+  background-size: cover;
+}
+h2 {
+  color: red;
+  text-align: center;
+  border: 3px solid rgba(117, 206, 255, 0.1);
+  cursor: pointer;
+}
+p {
+  color: pink;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
