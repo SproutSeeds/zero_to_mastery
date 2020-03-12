@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <form method="GET">
+      First name: <input type="text" name="firstName" /><br />
+      Last name: <input type="text" name="lastName" /><br />
+      Email: <input type="email" required name="email" /><br />
+      Password: <input type="password" min="5" required name="password" /><br />
+      Date: <input type="date" name="date" /><br />
+
+      Gender: <br />
+      <input type="radio" name="gender" value="male" />Male<br />
+      <input type="radio" name="gender" value="female" />Female<br />
+      <input type="radio" name="gender" value="non-binary" />Non-Binary<br />
+      <input type="radio" name="gender" value="dumbQuestion" />If you think this
+      question is stupid<br />
+
+      Pets: <br />
+      <input type="checkbox" name="cat" value="cat" />Cat <br />
+      <input type="checkbox" name="dog" value="dog" />Dog <br />
+      <input
+        type="checkbox"
+        name="naked_mole_rat"
+        value="naked_mole_rat"
+      />Naked Mole Rat<br />
+
+      Cars:
+      <select name="cars">
+        <option value="Volvo" name="volvo">Volvo</option>
+        <option value="Audi" name="audi">Audi</option>
+      </select>
+      <br />
+      <input type="submit" value="Register" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
+
+<!-- file:///Users/codymitchell/Documents/code/javascript/udemy/zero_to_mastery/zero_to_mastery_web_1/register.html?firstName=Cody&lastName=Mitchell&email=comitch2%40pdx.edu&password=123456&date=2020-12-31&gender=male&naked_mole_rat=naked_mole_rat&cars=Audi -->
