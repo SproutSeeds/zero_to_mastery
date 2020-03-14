@@ -2,20 +2,41 @@
     property: value;
 } */
 /* From overarching to more specific tag/selectors */
+* {
+  text-align: right;
+}
 body {
-  background-image: url(./img/Beach_Background-1001.jpg);
+  background: url(./img/Beach_Background-1001.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
-h2 {
-  color: red;
+h2,
+p {
+  color: rgba(0, 0, 150, 0.5);
   text-align: center;
-  border: 3px solid rgba(117, 206, 255, 0.1);
+  border: 3px solid rgba(117, 206, 255, 0.4);
   cursor: pointer;
 }
 p {
-  color: pink;
+  font-family: "Bellota", cursive;
+  font-size: 180%;
 }
 li {
   list-style: none;
   display: inline-block;
+}
+.webtext:first-child {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+#div1 {
+  background: rgba(0, 0, 75, 0.2);
+}
+#div2 {
+  background: rgba(0, 75, 0, 0.2);
 }

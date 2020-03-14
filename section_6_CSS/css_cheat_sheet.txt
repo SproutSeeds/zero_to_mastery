@@ -1,0 +1,58 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element
+element, element
+element1 element2            (all element2's inside element1)
+element1 > element2          (element2 that has an element1 parent)
+element1 + element2          (element2 that comes directly after element1)
+:hover                       (When you hover over element, it changes accordingly)
+:last-child                  (last element under their parent with specifed selector)
+:first-child                 (first element under their parent with specifed selector)              
+!important (not recommended) (placed after the property and makes it override all cascade styling rules)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
+
+
+FONT Properties
+
+font size properties
+    em         (size relation to the parent element)
+    rem        (size relation to the root element (HTML window))
+
+text-decoration
+    underline
+    line-through
+text-transform
+    uppercase
+    lowercase
+line-height
+    px, em, rem
+font-Style
+    italic
+font-weight
+    bold
+font-size
+    80%, 100%
+font-family
+    "Times New Roman", Georgia
+
+
+LINKING CSS FONTS FROM GOOGLE API (place in head of HTML)
+<link
+      href="https://fonts.googleapis.com/css?family=Bellota&display=swap"
+      rel="stylesheet"
+    />
