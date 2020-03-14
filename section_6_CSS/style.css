@@ -12,7 +12,11 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-h2,
+h2 {
+  color: rgba(0, 0, 150, 0.5);
+  border: 3px solid rgba(117, 206, 255, 0.4);
+  text-align: center;
+}
 p {
   color: rgba(0, 0, 150, 0.5);
   text-align: center;
@@ -21,12 +25,23 @@ p {
 }
 p {
   font-family: "Bellota", cursive;
-  font-size: 180%;
+  font-size: 100%;
+  line-height: 2.44em;
+  font-weight: bold;
+  font-style: italic;
+}
+img {
+  float: right;
+}
+footer {
+  clear: both;
+  text-align: center;
 }
 li {
   list-style: none;
   display: inline-block;
 }
+
 .webtext:first-child {
   border: 5px dashed green;
 }
