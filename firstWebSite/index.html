@@ -2,47 +2,99 @@
 <html>
   <head>
     <title>My Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- My own style sheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html"><strong>Home</strong></a>
-        </li>
-        <li>
-          <a href="aboutMe.html"><strong>About Me</strong></a>
-        </li>
-        <li>
-          <a href="musicPage.html"><strong>Music Page</strong></a>
-        </li>
-        <li>
-          <a href="worldOfWarcraft.html"><strong>Alliance/Horde</strong></a>
-        </li>
-      </ul>
-    </nav>
+    <!-- NAV BAR -->
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-cody-nav p-4">
+          <ul>
+            <li>
+              <a href="index.html"><strong>Home</strong></a>
+            </li>
+            <li>
+              <a href="aboutMe.html"><strong>About Me</strong></a>
+            </li>
+            <li>
+              <a href="musicPage.html"><strong>Music Page</strong></a>
+            </li>
+            <li>
+              <a href="codes.html"><strong>Codes</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-cody-nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
 
-    <br /><br /><br />
-    <br /><br /><br />
-    <h1>Cody</h1>
+    <!-- PICTURES -->
+    <div class="container align-items-center">
+      <div class="row">
+        <div class="buffer col-12"></div>
+        <h1 class="animated bounce">Cody</h1>
+        <section class="col-12">
+          <img
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10384755_10152888017507481_2250915387971834311_n.jpg?_nc_cat=106&_nc_sid=7aed08&_nc_oc=AQmhCskIRxAN5pNoV5UAsmTEhBsKobWvwjuGNV6_r5hgqkNFN1uQbB3l9Cc_6D7-8ao&_nc_ht=scontent-sea1-1.xx&oh=c25cd0247e6e103a453e9ead02253f8b&oe=5E919230"
+            alt="picture_of_a_beautiful_man"
+            class="animated flip fast"
+          />
+          <img
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10460782_10152903847297481_5359172332251635316_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQleUwGTrHOmHL-dghPcCA4sOKj5ZkLoTBs3IsT6A0rNFfx8h4GHnOHP1duonHJ9bJI&_nc_ht=scontent-sea1-1.xx&oh=650d9ca4c4903bf265b24de54d7a6d17&oe=5E91C7A4"
+            alt="picture_of_a_beautiful_man_and_his_dog"
+            class="animated flip slow"
+          />
+          <img
+            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10405524_10152875766767481_8134975334650699261_n.jpg?_nc_cat=100&_nc_sid=7aed08&_nc_oc=AQkhkBzlsnIHIv1OcciW3F5QCK2Xw2KGDsOqw7p6eFf5NnYHDRnWDBLSfATW_NsuDnE&_nc_ht=scontent-sea1-1.xx&oh=424fed1ef7c24944140eedfd22b7b58a&oe=5E8F11F3"
+            alt="picture_of_a_beautiful_man"
+            class="animated flip slower"
+          />
+        </section>
+      </div>
+    </div>
 
-    <img
-      src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10384755_10152888017507481_2250915387971834311_n.jpg?_nc_cat=106&_nc_sid=7aed08&_nc_oc=AQmhCskIRxAN5pNoV5UAsmTEhBsKobWvwjuGNV6_r5hgqkNFN1uQbB3l9Cc_6D7-8ao&_nc_ht=scontent-sea1-1.xx&oh=c25cd0247e6e103a453e9ead02253f8b&oe=5E919230"
-      alt="picture_of_a_beautiful_man"
-      width="550"
-      height="550"
-    />
-    <img
-      src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10460782_10152903847297481_5359172332251635316_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_oc=AQleUwGTrHOmHL-dghPcCA4sOKj5ZkLoTBs3IsT6A0rNFfx8h4GHnOHP1duonHJ9bJI&_nc_ht=scontent-sea1-1.xx&oh=650d9ca4c4903bf265b24de54d7a6d17&oe=5E91C7A4"
-      alt="picture_of_a_beautiful_man_and_his_dog"
-      width="550"
-      height="550"
-    />
-    <img
-      src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/10405524_10152875766767481_8134975334650699261_n.jpg?_nc_cat=100&_nc_sid=7aed08&_nc_oc=AQkhkBzlsnIHIv1OcciW3F5QCK2Xw2KGDsOqw7p6eFf5NnYHDRnWDBLSfATW_NsuDnE&_nc_ht=scontent-sea1-1.xx&oh=424fed1ef7c24944140eedfd22b7b58a&oe=5E8F11F3"
-      alt="picture_of_a_beautiful_man"
-      width="550"
-      height="550"
-    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

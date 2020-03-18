@@ -1,8 +1,45 @@
-body {
-  background-image: url(http://getwallpapers.com/wallpaper/full/d/c/5/505030.jpg);
+@import url("../section_8/animate_css/animate.css");
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(http://getwallpapers.com/wallpaper/full/d/c/5/505030.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
+.bg-cody-nav {
+  background-color: rgba(5, 5, 5, 0.1);
+}
+.buffer {
+  height: 16rem;
+}
+a {
+  color: whitesmoke;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-family: cursive;
+  color: rgba(27, 1, 1, 0.7);
+}
+section {
+  margin-left: 5rem;
+}
+img {
+  margin: 2rem;
+  width: 15rem;
+  height: 15rem;
+}
+
 li {
   list-style: none;
   display: inline-block;
+  margin: 1rem 1rem 1rem 1rem;
+  font-size: 1.2rem;
 }
