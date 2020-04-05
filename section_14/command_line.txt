@@ -1,0 +1,14 @@
+TERMINAL COMMANDS (Linux/Unix/Mac)
+- pwd: shows current path
+- open .: this will open the folder that you are currently in.
+- mkdir <file name>: this will create a folder within the directory you are in.
+- touch <file name>: this will create a file with specified name.
+- open <file name>: this will open up the file you are pointing to within your working directory.
+- open -a "<application name>": this will open up a specified application that you have
+    ie.
+        open -a "Visual Studio Code"
+        open -a "Visual Studio Code" index.html
+        open index.html
+- mv <file name> <new file name>: this will rename the file
+- rm <file name>: removes file
+- rm -r <directory name>: removes directory

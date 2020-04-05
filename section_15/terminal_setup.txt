@@ -1,0 +1,5 @@
+nano ~/.bash_profile           -- This will open your bash profile. As this file gets read before the terminal opens.
+
+Changing your PS1 variable here can change your terminal path.
+
+source ~/.bash_profile         -- This will reload your terminal with your new settings implemented.
