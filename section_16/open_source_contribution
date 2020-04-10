@@ -1,0 +1,9 @@
+https://github.com/zero-to-mastery/start-here-guidelines
+
+1. fork repository
+2. clone repository from your github profile after forking it from another
+3. checkout my developer branch, make changes..
+4. git push origin <branch name>
+5. head over to github branches on the website within your repository, create a pull request from the branch name push
+6. Note that the master branch is coming from the forked location and we are creating a pull request with the change created on my branch from my own repo.
+7. Add a pull request note, tag an admin of the project and create pull request.

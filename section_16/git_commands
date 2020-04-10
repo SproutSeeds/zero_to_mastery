@@ -1,0 +1,12 @@
+git add <filename>
+git add .                       -- Adds everything new
+git commit -m "<message>"
+git push origin <branch name>
+git pull origin master
+git pull           -- pulls all new changes into your environment
+git status       -- this will display files that have changed in "red"
+git diff         -- this will display actual changes that have been made.
+git remote -v        -- displays the source of git repo and current upstream attached
+git remote add upstream      -- past the url you would past to get a clone of the original repo you are forking.
+git pull upstream master        -- this will pull in changes to your forked repo before you commit your changes and ask for a pull request, keeping code conflicts to a minimum.
+git
