@@ -29,3 +29,10 @@
       - includes all packages with major release 1
     - > =1
       - includes all packages equal or over major release 1.
+
+# Updating Installed Packages
+
+- Whenever there is a package that you have installed with npm that needs to be updated.
+  Navigate to your package.json file and change the version number within the package.json file to
+  the version that you want to upgrade to and then run the command npm install.
+  - Your package.json file will be read and it will download/reinstall the newest dependencies for that version.
