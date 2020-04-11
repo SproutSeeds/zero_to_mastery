@@ -28,4 +28,4 @@
     - ^1
       - includes all packages with major release 1
     - > =1
-      - includes all packages equal or over major release 1
+      - includes all packages equal or over major release 1.
