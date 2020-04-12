@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/precache-manifest.ed120d157c79afd54c81ac3facaf91a4.js"
+  "/zero_to_mastery_web_1/section_19/robofriends/precache-manifest.a1e4cb421fe5c592ac51373cea86b8c2.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/zero_to_mastery_web_1/section_19/robofriends/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

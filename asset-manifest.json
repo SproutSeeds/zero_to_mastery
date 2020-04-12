@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/css/main.afcc7cb5.chunk.css",
-    "main.js": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/main.bda00cec.chunk.js",
-    "main.js.map": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/main.bda00cec.chunk.js.map",
-    "runtime-main.js": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/runtime-main.3a4df238.js",
-    "runtime-main.js.map": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/runtime-main.3a4df238.js.map",
-    "static/css/2.3b6f1bda.chunk.css": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.2f7a48c9.chunk.js": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/2.2f7a48c9.chunk.js",
-    "static/js/2.2f7a48c9.chunk.js.map": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/2.2f7a48c9.chunk.js.map",
-    "index.html": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/index.html",
-    "precache-manifest.ed120d157c79afd54c81ac3facaf91a4.js": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/precache-manifest.ed120d157c79afd54c81ac3facaf91a4.js",
-    "service-worker.js": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/service-worker.js",
-    "static/css/2.3b6f1bda.chunk.css.map": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/css/2.3b6f1bda.chunk.css.map",
-    "static/css/main.afcc7cb5.chunk.css.map": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/css/main.afcc7cb5.chunk.css.map",
-    "static/js/2.2f7a48c9.chunk.js.LICENSE.txt": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/js/2.2f7a48c9.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/SproutSeeds/zero_to_mastery_web_1/tree/master/section_19/robofriends/static/media/SEGA.12a3db8b.woff"
+    "main.css": "/zero_to_mastery_web_1/section_19/robofriends/static/css/main.48a05638.chunk.css",
+    "main.js": "/zero_to_mastery_web_1/section_19/robofriends/static/js/main.520cee50.chunk.js",
+    "main.js.map": "/zero_to_mastery_web_1/section_19/robofriends/static/js/main.520cee50.chunk.js.map",
+    "runtime-main.js": "/zero_to_mastery_web_1/section_19/robofriends/static/js/runtime-main.d3f918eb.js",
+    "runtime-main.js.map": "/zero_to_mastery_web_1/section_19/robofriends/static/js/runtime-main.d3f918eb.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/zero_to_mastery_web_1/section_19/robofriends/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.2f7a48c9.chunk.js": "/zero_to_mastery_web_1/section_19/robofriends/static/js/2.2f7a48c9.chunk.js",
+    "static/js/2.2f7a48c9.chunk.js.map": "/zero_to_mastery_web_1/section_19/robofriends/static/js/2.2f7a48c9.chunk.js.map",
+    "index.html": "/zero_to_mastery_web_1/section_19/robofriends/index.html",
+    "precache-manifest.a1e4cb421fe5c592ac51373cea86b8c2.js": "/zero_to_mastery_web_1/section_19/robofriends/precache-manifest.a1e4cb421fe5c592ac51373cea86b8c2.js",
+    "service-worker.js": "/zero_to_mastery_web_1/section_19/robofriends/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/zero_to_mastery_web_1/section_19/robofriends/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.48a05638.chunk.css.map": "/zero_to_mastery_web_1/section_19/robofriends/static/css/main.48a05638.chunk.css.map",
+    "static/js/2.2f7a48c9.chunk.js.LICENSE.txt": "/zero_to_mastery_web_1/section_19/robofriends/static/js/2.2f7a48c9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/zero_to_mastery_web_1/section_19/robofriends/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a4df238.js",
+    "static/js/runtime-main.d3f918eb.js",
     "static/css/2.3b6f1bda.chunk.css",
     "static/js/2.2f7a48c9.chunk.js",
-    "static/css/main.afcc7cb5.chunk.css",
-    "static/js/main.bda00cec.chunk.js"
+    "static/css/main.48a05638.chunk.css",
+    "static/js/main.520cee50.chunk.js"
   ]
 }
