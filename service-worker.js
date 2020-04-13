@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zero_to_mastery_web_1/precache-manifest.56d4844b15156b2b3860de9270831363.js"
+  "/zero_to_mastery_web_1/precache-manifest.2fa4151e95b70e4d51347d1aa13f1718.js"
 );
 
 self.addEventListener('message', (event) => {
