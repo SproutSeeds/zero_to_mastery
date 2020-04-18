@@ -24,8 +24,16 @@
 
 # Creating Server
 
-    - npm install nodemon --save-dev
-    - In package.json, under scripts
-        - add "start": "nodemon server.js"
-    - npm start
-        This will create your server on whatever local host you have set in your server.js
+    - Without Express
+        - npm install nodemon --save-dev
+        - In package.json, under scripts
+            - add "start": "nodemon server.js"
+        - npm start
+            This will create your server on whatever local host you have set in your server.js
+    - With Express
+        - npm install express
+        - npm install nodemon --save-dev
+        - In package.json, under scripts
+            - add "start": "nodemon server.js"
+        - npm start
+            This will create your server on whatever local host you have set in your server.js
