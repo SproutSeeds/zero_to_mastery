@@ -72,4 +72,26 @@
         - res.status(404).send("not found")
             - this will send a 404 status to the network tab in your browser.
     - Serving Static files
-        - 
+        - This will server as middleware with express to my working directory + public static files to server
+            -  app.use(express.static(__dirname + "/public"));
+
+# File System Module
+
+    - utf8 encoding
+        - standard encoding across the web.
+        - a,b,c, japanese characters, etc.
+    - readfile
+        - is asynchronous and will not block other actions
+    - readfileSync
+        - is synchronous and will block actions.
+    - appendFile(<filename>, <what to append>, error callback)
+        - it will append selected file or create the file if it doesnt exist
+    - writeFile(<filename>, <what to write>, error callback)
+        - creates a new file with content written
+
+# Console Commands
+
+    - console.time('<title>')
+        - starts a timer
+    - console.timeEnd('<same title as other one^^>')
+        - ends timer

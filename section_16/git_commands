@@ -10,3 +10,4 @@ git remote -v        -- displays the source of git repo and current upstream att
 git remote add upstream      -- past the url you would past to get a clone of the original repo you are forking.
 git pull upstream master        -- this will pull in changes to your forked repo before you commit your changes and ask for a pull request, keeping code conflicts to a minimum.
 git remote remove origin        -- if you forked or cloned it, it will remove the origin created
+git reset          -- removes the files added with git add .
